@@ -1,0 +1,41 @@
+# Maven build output
+target/
+
+# Real configuration containing API keys
+src/test/resources/config.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Test reports
+test-output/
+surefire-reports/
+
+# Generated audio files
+*.wav
+
+# Keep reference audio if required for the test
+!src/test/resources/sample.wav
